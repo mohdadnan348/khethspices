@@ -1,0 +1,189 @@
+/* Contact Section - Keth Spices */
+
+.contact-section {
+  padding: 5rem 2rem;
+  background: #fffaf5;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+.contact-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact-badge {
+  display: inline-block;
+  background: #b45309;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.3rem 1rem;
+  border-radius: 40px;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.contact-header h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #2c1a12;
+  margin-bottom: 0.5rem;
+}
+
+.contact-header p {
+  color: #5c3d2a;
+  font-size: 1.1rem;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+/* Left side - Info Cards */
+.contact-info {
+  background: white;
+  border-radius: 32px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.info-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.8rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #f0e2d4;
+}
+
+.info-card:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.info-icon {
+  font-size: 2rem;
+  min-width: 50px;
+  height: 50px;
+  background: #fff1e6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #b45309;
+  margin-bottom: 0.25rem;
+}
+
+.info-card p, .info-card a {
+  color: #4a2a1a;
+  text-decoration: none;
+  line-height: 1.4;
+}
+
+.info-card a:hover {
+  color: #b45309;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  background: #25D366;
+  color: white;
+  padding: 0.9rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 2rem;
+  transition: background 0.3s;
+}
+
+.whatsapp-btn:hover {
+  background: #128C7E;
+}
+
+/* Right side - Form */
+.contact-form {
+  background: white;
+  border-radius: 32px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border: 1px solid #f0e2d4;
+  border-radius: 16px;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: all 0.3s;
+  background: #fefaf5;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #b45309;
+  box-shadow: 0 0 0 3px rgba(180,83,9,0.1);
+}
+
+.submit-btn {
+  background: #b45309;
+  color: white;
+  border: none;
+  padding: 0.9rem 1.8rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background: #92400e;
+  transform: translateY(-2px);
+}
+
+.form-note {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #8b694c;
+  margin-top: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .contact-section {
+    padding: 3rem 1rem;
+  }
+  .contact-header h2 {
+    font-size: 1.8rem;
+  }
+  .info-card {
+    gap: 0.8rem;
+  }
+}

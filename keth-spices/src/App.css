@@ -1,0 +1,25 @@
+/* App.css - Global styles for Keth Spices */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  background-color: #fefaf5;
+  color: #2c1a12;
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #ffedd5;
+}
+::-webkit-scrollbar-thumb {
+  background: #b45309;
+  border-radius: 10px;
+}

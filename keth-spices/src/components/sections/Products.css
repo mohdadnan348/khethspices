@@ -1,0 +1,151 @@
+/* Products Section - Alternating rows like About */
+
+.products-section {
+  padding: 5rem 2rem;
+  background: #fefaf5;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+.products-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-badge {
+  display: inline-block;
+  background: #ffedd5;
+  color: #b45309;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.3rem 1rem;
+  border-radius: 40px;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.section-header h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #2c1a12;
+  margin-bottom: 0.5rem;
+}
+
+.section-header p {
+  color: #5c3d2a;
+  font-size: 1.1rem;
+}
+
+/* Product Row */
+.product-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 4rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #f0e2d4;
+}
+
+.product-row:last-child {
+  border-bottom: none;
+}
+
+/* Left alignment: text left, image right (default) */
+.row-left .product-text {
+  order: 1;
+}
+.row-left .product-image-wrapper {
+  order: 2;
+}
+
+/* Right alignment: image left, text right */
+.row-right .product-text {
+  order: 2;
+}
+.row-right .product-image-wrapper {
+  order: 1;
+}
+
+/* Product text styles */
+.product-text h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #b45309;
+  margin-bottom: 0.3rem;
+}
+
+.tagline {
+  font-size: 1rem;
+  color: #f59e0b;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.description {
+  color: #3b2a1f;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+/* Image wrapper */
+.product-image-wrapper {
+  overflow: hidden;
+  border-radius: 28px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.product-image-wrapper:hover {
+  transform: scale(1.02);
+}
+
+.product-image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Note at bottom */
+.products-note {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #fff1e6;
+  border-radius: 60px;
+  color: #2c1a12;
+  font-size: 0.95rem;
+}
+
+.products-note strong {
+  color: #b45309;
+}
+
+/* Responsive for mobile */
+@media (max-width: 900px) {
+  .product-row {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    text-align: center;
+  }
+  .row-left .product-text,
+  .row-right .product-text,
+  .row-left .product-image-wrapper,
+  .row-right .product-image-wrapper {
+    order: 1;
+  }
+  .product-text h3 {
+    font-size: 1.5rem;
+  }
+  .products-section {
+    padding: 3rem 1rem;
+  }
+  .section-header h2 {
+    font-size: 1.6rem;
+  }
+}
