@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="nav-container">
         <div className="logo">
-          🌿 Keth Spices
+          🌿 Kheth Spices
         </div>
         <ul className="nav-links">
           <li><a href="#home">Home</a></li>

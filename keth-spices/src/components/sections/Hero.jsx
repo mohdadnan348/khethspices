@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="hero-content">
         <span className="hero-badge">✨ New Launch ✨</span>
         <h1 className="hero-title">
-          Keth Spices
+          Kheth Spices
           <span className="hero-subtitle">Pure • Natural • Homemade</span>
         </h1>
         <p className="hero-description">
