@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-brand">
-          <h3>🌿 Keth Spices</h3>
+          <h3>🌿 Kheth Spices</h3>
           <p>Pure, Natural, Homemade Masale</p>
           <p className="copyright">© 2026 Keth Spices. All rights reserved.</p>
         </div>
