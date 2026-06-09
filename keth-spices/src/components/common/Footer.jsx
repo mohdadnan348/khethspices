@@ -33,17 +33,17 @@ export default function Footer() {
           <h4>Follow Us</h4>
           <ul className="social-icons">
             <li>
-              <a href="https://instagram.com/kethspices" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <a href="https://instagram.com/khethspices" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <i className="fab fa-instagram"></i>
               </a>
             </li>
             <li>
-              <a href="https://facebook.com/kethspices" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <a href="https://facebook.com/khethspices" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 <i className="fab fa-facebook-f"></i>
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/kethspices" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+              <a href="https://twitter.com/khethspices" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                 <i className="fab fa-twitter"></i>
               </a>
             </li>

@@ -7,13 +7,13 @@ export default function About() {
         <div className="about-grid">
           <div className="about-text">
             <span className="about-badge">🌿 Our Story</span>
-            <h2>Keth Spices – Born in Kanpur</h2>
+            <h2>Kheth Spices – Born in Kanpur</h2>
             <p className="about-lead">
               We bring you <strong>fresh, chemical‑free spices</strong> – just
               like homemade, but in a pack.
             </p>
             <p>
-              Keth Spices started its journey in Kanpur in 2026. We believe that
+              Kheth Spices started its journey in Kanpur in 2026. We believe that
               good food is the one made without any adulteration. That’s why our
               spices have{" "}
               <strong>no artificial colors, no preservatives</strong>. Just{" "}
